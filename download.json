@@ -1,0 +1,410 @@
+{
+    "title": "开源实验室",
+    "description": "kymjs张涛的开源实验室",
+    "link": "https://www.kymjs.com/",
+    "pubDate": "2017-02-20",
+    "lastBuildDate": "2017-02-20",
+    "generator": "Jekyll v3.1.2",
+    "item": [
+        {
+            "title": "PWA 程序开发实践",
+            "description": "从零开始，开发一个 PWA(Progressive Web App)应用，chrome 小程序也很简单。",
+            "pubDate": "2017-02-18",
+            "link": "https://www.kymjs.com/code/2017/02/18/01",
+            "tag": "技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "Service Worker:让网页无网络也能访问",
+            "description": "想要开发一个 PWA(Progressive Web App)应用，你必须知道首先知道，Service Worker 是什么，他是怎么工作的。",
+            "pubDate": "2017-02-15",
+            "link": "https://www.kymjs.com/code/2017/02/15/01",
+            "tag": "技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "Kotlin Primer·第四章·Kotlin 的类(上)",
+            "description": "前面三章的内容是写给希望快速了解 Kotlin 语言的大忙人的。 而从本章开始，才会真正讲述 Kotlin 语言的神奇之处。    ",
+            "pubDate": "2017-02-12",
+            "link": "https://www.kymjs.com/code/2017/02/12/01",
+            "tag": "Kotlin",
+            "category": "code"
+        },
+        {
+            "title": "Kotlin Primer·第三章·Kotlin 与 Java 混编",
+            "description": "前三章的内容是为方便想在短时间内马上用上Kotlin的人，例如作为一个刚入职的新人，公司的代码已经是用Kotlin编写了，你应该如何更快的融入与适应。   ",
+            "pubDate": "2017-02-07",
+            "link": "https://www.kymjs.com/code/2017/02/07/01",
+            "tag": "Kotlin",
+            "category": "code"
+        },
+        {
+            "title": "Kotlin Primer·第二章·基本语法",
+            "description": "前三章的内容是为方便想在短时间内马上用上Kotlin的人，例如作为一个刚入职的新人，公司的代码已经是用Kotlin编写了，你应该如何更快的融入与适应。  ",
+            "pubDate": "2017-02-04",
+            "link": "https://www.kymjs.com/code/2017/02/04/01",
+            "tag": "Kotlin",
+            "category": "code"
+        },
+        {
+            "title": "Kotlin Primer·第一章·启程",
+            "description": "其实最初是准备写一本电子书然后免费开放给大家的，可惜啊可惜毅力不够，坚持不下来，所以还是当成博客来写，写好了再出电子书吧。 ",
+            "pubDate": "2017-02-03",
+            "link": "https://www.kymjs.com/code/2017/02/03/01",
+            "tag": "Kotlin",
+            "category": "code"
+        },
+        {
+            "title": "Android业务组件化开发实践",
+            "description": "借用阿布倪盟博的一句话：“在MDCC中冯森林老师的《回归初心，从容器化到组件化》，为我们这些没有那么多精力折腾黑科技开发者们打开了另一扇门” 。 ",
+            "pubDate": "2016-10-18",
+            "link": "https://www.kymjs.com/code/2016/10/18/01",
+            "tag": "Android技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "记划词模块重构感受",
+            "description": "何为中毒，并不是说性能多么差，也不是代码多么烂，而是你容易受到别人代码的影响，不知不觉间就顺着他的思路走了。",
+            "pubDate": "2016-08-13",
+            "link": "https://www.kymjs.com/code/2016/08/13/01",
+            "tag": "笔记",
+            "category": "code"
+        },
+        {
+            "title": "深入浅出 RecyclerView",
+            "description": "起深入浅出这名字的时候我是慎重又慎重的，生怕被人骂标题党，写的什么破玩意还敢说深入浅出。所以还是请大家不要抱着太高的期望，因为没有期望就没有失望，就像陈润说的，超预期嘛。全当看小说的心情来看这系列文章了。",
+            "pubDate": "2016-07-10",
+            "link": "https://www.kymjs.com/code/2016/07/10/01",
+            "tag": "Android技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "6·25 插件化技术分享 PPT",
+            "description": "插件化轻巧之道 · 轻量级插件化实现方案 ",
+            "pubDate": "2016-06-25",
+            "link": "https://www.kymjs.com/code/2016/06/25/01",
+            "tag": "Android插件化开发",
+            "category": "code"
+        },
+        {
+            "title": "《给你一个技术团队，你该怎么管》 ",
+            "description": "用一句话概括，这本书讲的就是：怎样打造一个开发团队。 ",
+            "pubDate": "2016-06-03",
+            "link": "https://www.kymjs.com/manager/2016/06/03/01",
+            "tag": "策划与管理",
+            "category": "manager"
+        },
+        {
+            "title": "8个类搞定插件化——Service实现方案  ",
+            "description": "动态加载一个 Service 到应用中，同样采用的是和 Activity 一样的伪装欺骗系统识别的方案。 ",
+            "pubDate": "2016-05-22",
+            "link": "https://www.kymjs.com/code/2016/05/22/01",
+            "tag": "Android插件化开发",
+            "category": "code"
+        },
+        {
+            "title": "8个类搞定插件化——Activity实现方案  ",
+            "description": "前两篇文章写完后，有人跟我说怎么觉得你文章风格突然变了，最近讲了这么多内容变啰嗦了，没有你高效率精简的风格了。宝宝心里苦啊，不是我不想，实在是插件化这东西，如果你不知道理论知识的话，根本没办法去理解啊。接下来这几篇我尽可能的以实践为主，让大家都能看得懂。 ",
+            "pubDate": "2016-05-15",
+            "link": "https://www.kymjs.com/code/2016/05/15/01",
+            "tag": "Android插件化开发",
+            "category": "code"
+        },
+        {
+            "title": "Android 热修复，没你想的那么难",
+            "description": "一种动态加载最简单的实现方式，代码实现起来非常简单，重要的是这种思路和原理 ",
+            "pubDate": "2016-05-08",
+            "link": "https://www.kymjs.com/code/2016/05/08/01",
+            "tag": "Android插件化开发",
+            "category": "code"
+        },
+        {
+            "title": "Android 插件化的 过去 现在 未来 ",
+            "description": "第一篇文章，作为序文，并没有什么实质性内容，仅仅是一些八卦和历史，重效率的朋友可以选择直接跳过。 ",
+            "pubDate": "2016-05-04",
+            "link": "https://www.kymjs.com/code/2016/05/04/01",
+            "tag": "Android插件化开发",
+            "category": "code"
+        },
+        {
+            "title": "《引爆点》笔记与思考 ",
+            "description": "今天，参加沪江星兵营活动，其中一个议题叫：【怎样吸引更多的中学生成为沪江的用户】，说到吸引用户，正好就用上了《引爆点》这本书讲述的内容。",
+            "pubDate": "2016-04-23",
+            "link": "https://www.kymjs.com/stickies/2016/04/23/01",
+            "tag": "策划与管理",
+            "category": "stickies"
+        },
+        {
+            "title": "面试后的总结 ",
+            "description": "“基础 Android 知识掌握的不错，学习能力也不错。但是基础知识部分比较薄弱，有些概念和逻辑掌握不清。” 感谢春林的这句话。",
+            "pubDate": "2016-03-08",
+            "link": "https://www.kymjs.com/code/2016/03/08/01",
+            "tag": "笔记",
+            "category": "code"
+        },
+        {
+            "title": "记一次代码探查过程 ",
+            "description": "从 Volley 源码中延伸学习到的 HTTP 请求头的知识  ",
+            "pubDate": "2016-02-25",
+            "link": "https://www.kymjs.com/code/2016/02/25/01",
+            "tag": "笔记",
+            "category": "code"
+        },
+        {
+            "title": "2015年终总结",
+            "description": "就像一个终生跋涉的香客，不停地寻找一座可能根本不存在的神庙，我不知道他寻求的是什么不可思议的涅槃。我只知道，我们中的大多数，苟活一生，却从不曾寻找。我想也许你该停下来，看看你走的路，想想你想要的真实。————Seven凉奈《你的生活，该如何安放》",
+            "pubDate": "2015-12-22",
+            "link": "https://www.kymjs.com/stickies/2015/12/22/01",
+            "tag": "心情随笔",
+            "category": "stickies"
+        },
+        {
+            "title": "EventBus源码研读(下)",
+            "description": "EventBus 是一款针对Android优化的发布/订阅事件总线。主要功能是替代Intent, Handler, BroadCast 在 Fragment，Activity，Service，线程之间传递消息.优点是开销小，使用方便,可以很大程度上降低它们之间的耦合，使得我们的代码更加简洁，耦合性更低，提升我们的代码质量。 类似的库还有 Otto ,今天就带大家一起研读 EventBus 的源码.",
+            "pubDate": "2015-12-16",
+            "link": "https://www.kymjs.com/code/2015/12/16/01",
+            "tag": "Android技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "EventBus源码研读(中)",
+            "description": "EventBus 是一款针对Android优化的发布/订阅事件总线。主要功能是替代Intent, Handler, BroadCast 在 Fragment，Activity，Service，线程之间传递消息.优点是开销小，使用方便,可以很大程度上降低它们之间的耦合，使得我们的代码更加简洁，耦合性更低，提升我们的代码质量。 类似的库还有 Otto ,今天就带大家一起研读 EventBus 的源码.",
+            "pubDate": "2015-12-13",
+            "link": "https://www.kymjs.com/code/2015/12/13/01",
+            "tag": "Android技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "EventBus源码研读(上)",
+            "description": "本文总共分三部分，从源码角度分析了 EventBus 库。以及介绍了其内部实现注册、发送、响应、取消注册的原理。  ",
+            "pubDate": "2015-12-12",
+            "link": "https://www.kymjs.com/code/2015/12/12/01",
+            "tag": "Android技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "记一次 ListView 性能优化过程",
+            "description": "奇葩需求催生创新，记一次对 ListView 的性能优化。（当然，RecyclerView 也是一样）  ",
+            "pubDate": "2015-11-26",
+            "link": "https://www.kymjs.com/code/2015/11/26/01",
+            "tag": "笔记",
+            "category": "code"
+        },
+        {
+            "title": "聊聊 Apache 开源协议",
+            "description": "用一句话概括 Apache License 就是，你可以用这代码，但是如果开源你必须保留我写的声明；你可以改我的代码，但是如果开源你必须写清楚你改了哪些；你可以加新的协议要求，但不能与我所公布的协议要求产生冲突；你用这代码干什么我不管，但是你不能让我承担任何责任。",
+            "pubDate": "2015-11-21",
+            "link": "https://www.kymjs.com/manager/2015/11/21/01",
+            "tag": "知识点积累",
+            "category": "manager"
+        },
+        {
+            "title": "生日快乐",
+            "description": "每个人都会沉迷在自己的戏里，就看什么时候观众会看不下去而叫醒你。——《说故事的人》",
+            "pubDate": "2015-11-13",
+            "link": "https://www.kymjs.com/stickies/2015/11/13/01",
+            "tag": "心情随笔",
+            "category": "stickies"
+        },
+        {
+            "title": "用MVP架构开发Android应用",
+            "description": "怎样从架构级别去搭建一个APP，怎样让他应对日益更改的界面与业务逻辑？今天为大家讲述一种在Android上实现MVP模式的方法。  ",
+            "pubDate": "2015-11-09",
+            "link": "https://www.kymjs.com/code/2015/11/09/01",
+            "tag": "Android技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "支持gif的图片预览控件",
+            "description": "最近实现了一个gif图片和普通图片浏览的功能，支持双击缩放，单机退出。同时可以选择使用jni的形式去高效加载gif或者更更精简的(仅2个类)gif控件",
+            "pubDate": "2015-10-18",
+            "link": "https://www.kymjs.com/code/2015/10/18/01",
+            "tag": "Android技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "RecyclerView的通用适配器，和滚动时不加载图片的封装",
+            "description": "介绍一个通用的Adapter实现，和对RecyclerView滚动时不加载图片的封装。",
+            "pubDate": "2015-10-11",
+            "link": "https://www.kymjs.com/code/2015/10/11/01",
+            "tag": "Android技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "GitHub线下聚会",
+            "description": "GitHub是一个伟大的社区，平时我们互不见面，愉快地协作。但如能从线上到线下，那么更是一件令人欣喜的事情：数个好友，聚在一起，谈谈技术，谈谈对生活的理解，分享美好的事物。\n这样的场景，时时让我想起一千多年前那个秋天，江边阁上上的那次聚会。“胜友如云”，“高朋满座”。\n在 2015-09-15 北京一聚，同学们相谈甚欢，分别时，依依惜别，场景感人。各地同学也纷纷约谈见面。杭州，深圳，上海等纷纷建微信群准备线下聚会。",
+            "pubDate": "2015-09-26",
+            "link": "https://www.kymjs.com/stickies/2015/09/26/01",
+            "tag": "心情随笔",
+            "category": "stickies"
+        },
+        {
+            "title": "KJBitmap与KJHttp的深度用法",
+            "description": "这篇文章是对KJFrameForAndroid使用的一个深入学习",
+            "pubDate": "2015-09-24",
+            "link": "https://www.kymjs.com/code/2015/09/24/01",
+            "tag": "Android框架",
+            "category": "code"
+        },
+        {
+            "title": "kotlin简单项目",
+            "description": "如果你真的希望深入的了解kotlin语言，可以查看英文版Kotlin语言文档，或者我的kotlin语言文档中文翻译项目KotlinDoc-cn：https://github.com/kymjs/KotlinDoc-cn",
+            "pubDate": "2015-08-03",
+            "link": "https://www.kymjs.com/code/2015/08/03/01",
+            "tag": "Kotlin",
+            "category": "code"
+        },
+        {
+            "title": "kotlin基础语法",
+            "description": "如果你真的希望深入的了解kotlin语言，可以查看英文版Kotlin语言文档，或者我的kotlin语言文档中文翻译项目KotlinDoc-cn：https://github.com/kymjs/KotlinDoc-cn",
+            "pubDate": "2015-08-02",
+            "link": "https://www.kymjs.com/code/2015/08/02/01",
+            "tag": "Kotlin",
+            "category": "code"
+        },
+        {
+            "title": "使用Kotlin开发Android",
+            "description": "我几乎是在学习的同时写了这些文章的, 我并没有尝试任何其它的替代语言，例如Go和Scala，所以如果你是真的考虑换一种开发语言的话，我建议你去搜索一下其他人对这些语言的评价。",
+            "pubDate": "2015-07-22",
+            "link": "https://www.kymjs.com/code/2015/07/22/01",
+            "tag": "Kotlin",
+            "category": "code"
+        },
+        {
+            "title": "Android流式布局实现",
+            "description": "新项目用到了一种全新布局————Android标签流式布局的功能，正好一直说给大家讲自定义控件的实现，今天就为大家讲一种android流式布局的实现。",
+            "pubDate": "2015-06-06",
+            "link": "https://www.kymjs.com/code/2015/06/06/01",
+            "tag": "Android技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "Android夜间模式实现",
+            "description": "最近在做一个Android夜间模式的功能，又重新研究了一下Theme机制。贯彻我的风格，以解决问题为目标，写了个小Demo，简单了实现了切换夜间模式，为大家讲解。",
+            "pubDate": "2015-05-26",
+            "link": "https://www.kymjs.com/code/2015/05/26/01",
+            "tag": "Android技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "如何在Android应用程序中保存数据",
+            "description": "一些日常总结的笔记与经验~ ",
+            "pubDate": "2015-05-24",
+            "link": "https://www.kymjs.com/code/2015/05/24/01",
+            "tag": "知识点积累",
+            "category": "code"
+        },
+        {
+            "title": "网上订餐产品运营分析",
+            "description": "请原谅我就这么黑了小米，不知道为什么，看到小米这个品牌就想去黑它，就觉得不爽。可能真的就是平时为MIUI做兼容的时候被折磨疯了吧。",
+            "pubDate": "2015-05-16",
+            "link": "https://www.kymjs.com/stickies/2015/05/16/01",
+            "tag": "策划与管理",
+            "category": "stickies"
+        },
+        {
+            "title": "KJHttp框架使用讲解",
+            "description": "写给那些在用、想用、还没有用过KJFrame的朋友。 KJFrameForAndroid总共分为四个功能：Activity继承链的规范，Http数据请求和上传下载，Bitmap大图加载以及ListView滚动时只加载内存图片，数据库对象存储与集合对象存储。还有一个独立出来的功能CJFrame插件化开发框架，支持启动在你的手机中未安装的apk应用。 ",
+            "pubDate": "2015-05-12",
+            "link": "https://www.kymjs.com/code/2015/05/12/01",
+            "tag": "Android框架",
+            "category": "code"
+        },
+        {
+            "title": "使用框架帮助Activity规范化",
+            "description": "写给那些在用、想用、还没有用过KJFrame的朋友。 KJFrameForAndroid总共分为四个功能：Activity继承链的规范，Http数据请求和上传下载，Bitmap大图加载以及ListView滚动时只加载内存图片，数据库对象存储与集合对象存储。还有一个独立出来的功能CJFrame插件化开发框架，支持启动在你的手机中未安装的apk应用。 ",
+            "pubDate": "2015-05-10",
+            "link": "https://www.kymjs.com/code/2015/05/10/01",
+            "tag": "Android框架",
+            "category": "code"
+        },
+        {
+            "title": "深入讲解WebView——下",
+            "description": "作为Android开发者，我们都知道在手机中内置了一款高性能 webkit 内核浏览器,在 SDK 中封装为一个叫做 WebView 组件。今天就为大家讲讲Android中WebView的详细使用方法",
+            "pubDate": "2015-05-04",
+            "link": "https://www.kymjs.com/code/2015/05/04/01",
+            "tag": "Android技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "深入讲解WebView——上",
+            "description": "作为Android开发者，我们都知道在手机中内置了一款高性能 webkit 内核浏览器,在 SDK 中封装为一个叫做 WebView 组件。今天就为大家讲讲Android中WebView的详细使用方法",
+            "pubDate": "2015-05-03",
+            "link": "https://www.kymjs.com/code/2015/05/03/01",
+            "tag": "Android技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "OSChina，从东涌到西涌",
+            "description": "出发以前，不止一位朋友警告过我：从东涌到西涌是一段艰难的跋涉，要有心理准备。但在我的想象里，它仍然只是一段漫长的海岸线漫步而已——也许时间会久一点，五六个小时嘛，大家都这样说。",
+            "pubDate": "2015-05-01",
+            "link": "https://www.kymjs.com/stickies/2015/05/01/01",
+            "tag": "心情随笔",
+            "category": "stickies"
+        },
+        {
+            "title": "通用Adapter与ListView滚动时不加载图片的封装",
+            "description": "介绍一个通用的Adapter实现，和对ListView滚动时不加载图片的封装。",
+            "pubDate": "2015-04-28",
+            "link": "https://www.kymjs.com/code/2015/04/28/01",
+            "tag": "Android技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "我的创业方案A——都市书吧1",
+            "description": "身边一直有创业的朋友，也一直有想拉我创业的朋友，我只告诉他们还没到时间。90%的人都想过创业，但只有10%的人去做了，最后又只有这10%里面的10%成功了。我从来没有忘记过我的创业之心，在我的计划里会在25岁决定一个去留，是留在深圳还是回家创业(我不会呆在深圳或其他大城市创业，原因以后再说)，而决定这一去留的索引，很现实——就是在我25岁时的年薪。",
+            "pubDate": "2015-04-27",
+            "link": "https://www.kymjs.com/stickies/2015/04/27/01",
+            "tag": "我的创业方案",
+            "category": "stickies"
+        },
+        {
+            "title": "仿iPhone辅助球实现",
+            "description": "过年在家时，翻出来了很多去年写的代码。就挑出来了一些自我感觉良好的讲解了。",
+            "pubDate": "2015-04-12",
+            "link": "https://www.kymjs.com/code/2015/04/12/01",
+            "tag": "Android技术讲解",
+            "category": "code"
+        },
+        {
+            "title": "你会怎么样设计一个电视遥控器？",
+            "description": "如果让你设计一个电视遥控器，你会怎么设计？这个题目不一定是出给设计师，难道项目负责人就可以不用思考吗。",
+            "pubDate": "2015-04-11",
+            "link": "https://www.kymjs.com/manager/2015/04/11/01",
+            "tag": "策划与管理",
+            "category": "manager"
+        },
+        {
+            "title": "项目经理初长成——明确认知",
+            "description": "作为项目经理，尤其是移动开发项目经理，有时候不得不去思考一些非技术上的东西，例如用户体验。",
+            "pubDate": "2015-04-05",
+            "link": "https://www.kymjs.com/manager/2015/04/05/01",
+            "tag": "策划与管理",
+            "category": "manager"
+        },
+        {
+            "title": "致那些正在迷茫期的开发者",
+            "description": "望着床头的两本书，突然有一些感想。",
+            "pubDate": "2015-04-01",
+            "link": "https://www.kymjs.com/code/2015/04/01/01",
+            "tag": "心情随笔",
+            "category": "code"
+        },
+        {
+            "title": "KJBitmap使用方法",
+            "description": "好像最近一个月都没有写博客了，正好伴着KJFrameForAndroid更新v2.14版本，讲解一下其中Bitmap模块的深度用法。",
+            "pubDate": "2015-03-25",
+            "link": "https://www.kymjs.com/code/2015/03/25/01",
+            "tag": "Android框架",
+            "category": "code"
+        },
+        {
+            "title": "面向时空编程",
+            "description": "如果你能看到我的头脑如何思考，你就会发现，当我的眼睛看到代码或者公式的时候，我的头脑看到的并不是代码和公式，而是自动把它们翻译成了一些电路，流体导管一类的东西，它们存在于一个具有多重现实和历史的，像 Matrix 一样的世界里。这些直觉都不是从书里来的，也不是老师教的，而是通过观察身边的事物得到的。",
+            "pubDate": "2015-03-16",
+            "link": "https://www.kymjs.com/code/2015/03/16/01",
+            "tag": "心情随笔",
+            "category": "code"
+        }
+    ]
+}
