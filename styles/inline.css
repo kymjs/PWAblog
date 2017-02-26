@@ -149,13 +149,16 @@ body {
 
   .header #butAbout {
   background: url(/images/ic_about_white.svg) center center no-repeat; }
+  
+  .header #butBack {
+  background: url(/images/ic_back_white.svg) center center no-repeat; }
 
 .header_title {
   font-weight: 400;
   font-size: 18px;
   margin: 0;
   text-align: left;
-  padding-left: 20px;
+  padding-left: 0px;
   font-weight: bold;
   -webkit-box-flex: 1;
   -webkit-flex: 1;

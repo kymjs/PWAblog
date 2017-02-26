@@ -27,26 +27,27 @@
   </header>
 
   <main class="main">
-    <div class="post-list-body post-area"> 
-      <div class="list-item" hidden>
-        <a href="http://kymjs.com/" id="blogLink" title="title template">
-          <div class="post-list-item">
-            <font color="#aaaaaa" id="blogTime"> 2017-02-18 By 张涛</font>
-            <h2>
-                <font color="#AE57A4" id="tag">技术</font>
-                <font color="#333333" id="title">title template</font>
-            </h2>
-            <p><font color="#666666" id="description"> description template </font></p>
-          </div>
-        </a>
-      </div>
-             
+    <div class="post-list-body post-area">
+      <template id="blogListTemplate">
+        <div class="list-item">
+          <a href="http://kymjs.com/" id="blogLink" title="title template">
+            <div class="post-list-item">
+              <font color="#aaaaaa" id="blogTime"> 2017-02-18 By 张涛</font>
+              <h2>
+                  <font color="#AE57A4" id="tag">技术</font>
+                  <font color="#333333" id="title">title template</font>
+              </h2>
+              <p><font color="#666666" id="description"> description template </font></p>
+            </div>
+          </a>
+        </div>
+      </template> 
     </div>
   </main>
  
   <footer class="footer">
    <button id="column1" class="button1">专栏</button>
-   <button id="column2" class="button2 active">博客</button> 
+   <button id="column2" class="button2">博客</button> 
    <button id="column3" class="button3">作品</button> 
   </footer>
 

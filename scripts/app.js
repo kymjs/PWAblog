@@ -2,7 +2,7 @@
   'use strict';
 
   var app = { 
-    currentColumn: 2,
+    currentColumn: 0,
     isFirstRequest: true,
     appColumn1: document.querySelector('.button1'),
     appColumn2: document.querySelector('.button2'),
@@ -50,6 +50,7 @@
               app.appColumn2.classList.add('active');
             break;
             case 3:
+            app.requestBlogList();
               app.appColumn3.classList.add('active');
             break;
           }
@@ -57,18 +58,19 @@
       }
     };
 
-    app.updateContent = function(data){
+    app.createItem = function(data){
+      var template = document.querySelector('#blogListTemplate').content;
       //set content
-      var link = document.getElementById('blogLink');
+      var link = template.getElementById('blogLink');
       link.href = data.link;
       link.title = data.title; 
-      var time = document.getElementById('blogTime');
+      var time = template.getElementById('blogTime');
       time.innerHTML = data.pubDate.concat(' By 张涛');
-      var title = document.getElementById('title');
+      var title = template.getElementById('title');
       title.innerHTML = ': '.concat(data.title);
-      var description = document.getElementById('description');
+      var description = template.getElementById('description');
       description.innerHTML = data.description;
-      var tag = document.getElementById('tag');
+      var tag = template.getElementById('tag');
       switch(data.category){
         case 'code':
           tag.innerHTML = "技术";
@@ -91,18 +93,18 @@
           tag.color = "#008080";
         break;
       }
+      var item = template.cloneNode(true);
+      return item;
     };
 
-    app.addContent = function(itemList){
-      for (var i = itemList.length - 1; i >=0 ; i--) {
-        app.updateContent(itemList[i]);
-        if (i !== 0){
-          //clone and add
-          var template = document.querySelector('.list-item');
-          var item = template.cloneNode(true);
-          item.removeAttribute('hidden');
-          app.container.insertBefore(item,template);
-        }
+    app.addBlogListContent = function(itemList){
+      while(app.container.childNodes[2]){
+        app.container.removeChild(app.container.childNodes[2]);
+      }
+
+      for (var i = 0; i < itemList.length; i++) {
+          var item = app.createItem(itemList[i]);
+          app.container.appendChild(item);
       };
     };
 
@@ -113,7 +115,7 @@
    ****************************************************************************/
   
   app.requestBlogList = function(){
-    var url = "/download.json";
+    var url = "/api/download.json";
 
     if ('caches' in window) {
 
@@ -121,7 +123,7 @@
         if (response) {
           response.json().then(function updateFromCache(json) {
             var itemList = json.item;
-            app.addContent(itemList);
+            app.addBlogListContent(itemList);
           });
         }
       });
@@ -132,7 +134,7 @@
     if (xmlhttp.readyState == XMLHttpRequest.DONE && xmlhttp.status==200){
         var response = JSON.parse(xmlhttp.response);
         var itemList = response.item;
-        app.addContent(itemList);        
+        app.addBlogListContent(itemList);        
       }
     };
     xmlhttp.open("GET", url);
@@ -140,7 +142,7 @@
     xmlhttp.send();
   };
 
-  app.requestBlogList();
+  app.updateColumn(2);
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
              .register('/service-worker.js')
