@@ -1,12 +1,11 @@
-var cacheName = 'px-to-dp-v1.1';
+var cacheName = 'px-to-dp-v1.2';
 var filesToCache = [
-  '/',
-  '/index.html',
   '/offline.html',
-  '/scripts/app.js',
-  '/styles/inline.css',
+  '/scripts/px2dp.js',
+  '/styles/px2dp.css',
   '/images/ic_about_white.svg',
   '/images/ic_back_white.svg',
+  '/images/ic_compute_white.svg'
   '/images/offline.jpg',
   '/images/woodwall.jpg',
   '/images/woodwall2.jpg'
@@ -34,7 +33,6 @@ self.addEventListener('activate', function(e) {
 
 self.addEventListener('fetch', function(e) {
   var extendDataUrl = [
-    '/download.json'
   ];
 
   var allDataUrl = extendDataUrl;
