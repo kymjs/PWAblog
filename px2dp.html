@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="canonical" href="https://weather-pwa-sample.firebaseapp.com/final/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="manifest" href="/manifest.json">
+  <!-- Add to home screen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="开源实验室">
+  <link rel="apple-touch-icon" href="favicon.jpg">
+  <!-- Add to home screen for IE on Windows -->
+  <meta name="msapplication-TileImage" content="favicon.jpg">
+  <meta name="msapplication-TileColor" content="#2F3BA2">
+
+  <title>开源实验室-kymjs张涛</title>
+  <link rel="stylesheet" type="text/css" href="styles/px2dp.css">  
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="header_title">px-dp</h1>
+    <a href="https://kymjs.com/about"><button id="butAbout" class="headerButton" aria-label="about"></button></a>
+  </header>
+
+  <main class="main">
+    <div class="post-area" align="center">
+      
+      <b><font color="#333" id="blogTime"> 原图尺寸：宽 * 高</font></b>
+      <div>
+        <form name="widthAndHeight">
+        <input type="text" name="mWidth" />
+        <b> X </b>
+        <input type="text" name="mHeight" />
+        </form>
+      </div>
+      </br>
+      <button id="butPlus" class="contentButton" aria-label="plus"></button>
+      <button id="butCompute" class="contentButton" aria-label="plus"></button>
+      </br>
+
+      <div class="post-list-body">
+        <template id="itemTemplate">
+          <div class="item">
+            <input type="number" name="px"/> px
+            <b><font color="#333" name="dp"> - </font></b> dp
+          </div>
+        </template>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="/scripts/px2dp.js" async></script>
+</body>
+</html>
