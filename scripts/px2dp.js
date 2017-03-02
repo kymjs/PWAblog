@@ -20,7 +20,13 @@
     var editTextList = app.container.getElementsByTagName('input');
     var textList = app.container.getElementsByTagName('font');
     for(var i = 0; i < editTextList.length; i++){
-      textList[i].innerHTML = (editTextList[i].value*scale);
+      var res = editTextList[i].value * scale;
+      if (res % 1 == 0){
+        textList[i].innerHTML = res;
+      } else {
+        textList[i].innerHTML = res.toFixed(1);
+      }
+      
     }
   });
 
