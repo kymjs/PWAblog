@@ -177,6 +177,11 @@ body {
   -webkit-overflow-scrolling: touch; 
 }
 
+  .main input {
+    width: 28%;
+    height: 30px;
+  }
+
   .main .contentButton {
     width: 70px;
     height: 70px;
