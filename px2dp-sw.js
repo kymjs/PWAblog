@@ -1,4 +1,4 @@
-var cacheName = 'px-to-dp-v1.2';
+var cacheName = 'px-to-dp-v1.21';
 var filesToCache = [
   '/offline.html',
   '/scripts/px2dp.js',
