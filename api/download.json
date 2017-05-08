@@ -2,32 +2,58 @@
     "title": "开源实验室",
     "description": "kymjs张涛的开源实验室",
     "link": "https://www.kymjs.com/",
-    "pubDate": "2017-02-20",
-    "lastBuildDate": "2017-02-20",
+    "pubDate": "2017-04-28",
+    "lastBuildDate": "2017-04-28",
     "generator": "Jekyll v3.1.2",
     "item": [
+        {
+            "title": "Kotlin Primer·第五章·函数与闭包",
+            "description": "久违了，Kotlin 的闭包。函数与闭包的特性可以算是 Kotlin 语言最大的特性了，所以写了很久。    ",
+            "pubDate": "2017-04-09",
+            "link": "https://www.kymjs.com/code/2017/04/09/01",
+            "tag": "Kotlin",
+            "columnNum": "7",
+            "column": "Kotlin 程序设计",
+            "category": "code"
+        },
+        {
+            "title": "Kotlin Primer·第四章·Kotlin 的类特性(下)",
+            "description": "Kotlin 中有很多非常好的特性，扩展方法、伴生对象、原生支持动态代理、伪多继承    ",
+            "pubDate": "2017-02-26",
+            "link": "https://www.kymjs.com/code/2017/02/26/01",
+            "tag": "Kotlin",
+            "columnNum": "7",
+            "column": "Kotlin 程序设计",
+            "category": "code"
+        },
         {
             "title": "PWA 程序开发实践",
             "description": "从零开始，开发一个 PWA(Progressive Web App)应用，chrome 小程序也很简单。",
             "pubDate": "2017-02-18",
             "link": "https://www.kymjs.com/code/2017/02/18/01",
             "tag": "技术讲解",
+            "columnNum": "8",
+            "column": "Progressive Web Apps 程序设计",
             "category": "code"
         },
         {
             "title": "Service Worker:让网页无网络也能访问",
-            "description": "想要开发一个 PWA(Progressive Web App)应用，你必须知道首先知道，Service Worker 是什么，他是怎么工作的。",
+            "description": "写给所有移动端开发的同学：PWA(Progressive Web Apps) 一定是将来的移动开发趋势，且学且珍惜。 ",
             "pubDate": "2017-02-15",
             "link": "https://www.kymjs.com/code/2017/02/15/01",
             "tag": "技术讲解",
+            "columnNum": "8",
+            "column": "Progressive Web Apps 程序设计",
             "category": "code"
         },
         {
-            "title": "Kotlin Primer·第四章·Kotlin 的类(上)",
+            "title": "Kotlin Primer·第四章·Kotlin 的类特性(上)",
             "description": "前面三章的内容是写给希望快速了解 Kotlin 语言的大忙人的。 而从本章开始，才会真正讲述 Kotlin 语言的神奇之处。    ",
             "pubDate": "2017-02-12",
             "link": "https://www.kymjs.com/code/2017/02/12/01",
             "tag": "Kotlin",
+            "columnNum": "7",
+            "column": "Kotlin 程序设计",
             "category": "code"
         },
         {
@@ -36,6 +62,8 @@
             "pubDate": "2017-02-07",
             "link": "https://www.kymjs.com/code/2017/02/07/01",
             "tag": "Kotlin",
+            "columnNum": "7",
+            "column": "Kotlin 程序设计",
             "category": "code"
         },
         {
@@ -44,6 +72,8 @@
             "pubDate": "2017-02-04",
             "link": "https://www.kymjs.com/code/2017/02/04/01",
             "tag": "Kotlin",
+            "columnNum": "7",
+            "column": "Kotlin 程序设计",
             "category": "code"
         },
         {
@@ -52,6 +82,8 @@
             "pubDate": "2017-02-03",
             "link": "https://www.kymjs.com/code/2017/02/03/01",
             "tag": "Kotlin",
+            "columnNum": "7",
+            "column": "Kotlin 程序设计",
             "category": "code"
         },
         {
@@ -60,6 +92,8 @@
             "pubDate": "2016-10-18",
             "link": "https://www.kymjs.com/code/2016/10/18/01",
             "tag": "Android技术讲解",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -68,6 +102,8 @@
             "pubDate": "2016-08-13",
             "link": "https://www.kymjs.com/code/2016/08/13/01",
             "tag": "笔记",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -76,6 +112,8 @@
             "pubDate": "2016-07-10",
             "link": "https://www.kymjs.com/code/2016/07/10/01",
             "tag": "Android技术讲解",
+            "columnNum": "4",
+            "column": "源码研读",
             "category": "code"
         },
         {
@@ -84,6 +122,8 @@
             "pubDate": "2016-06-25",
             "link": "https://www.kymjs.com/code/2016/06/25/01",
             "tag": "Android插件化开发",
+            "columnNum": "6",
+            "column": "Android插件化",
             "category": "code"
         },
         {
@@ -92,6 +132,8 @@
             "pubDate": "2016-06-03",
             "link": "https://www.kymjs.com/manager/2016/06/03/01",
             "tag": "策划与管理",
+            "columnNum": "5",
+            "column": "每月一书",
             "category": "manager"
         },
         {
@@ -100,6 +142,8 @@
             "pubDate": "2016-05-22",
             "link": "https://www.kymjs.com/code/2016/05/22/01",
             "tag": "Android插件化开发",
+            "columnNum": "6",
+            "column": "Android插件化",
             "category": "code"
         },
         {
@@ -108,6 +152,8 @@
             "pubDate": "2016-05-15",
             "link": "https://www.kymjs.com/code/2016/05/15/01",
             "tag": "Android插件化开发",
+            "columnNum": "6",
+            "column": "Android插件化",
             "category": "code"
         },
         {
@@ -116,6 +162,8 @@
             "pubDate": "2016-05-08",
             "link": "https://www.kymjs.com/code/2016/05/08/01",
             "tag": "Android插件化开发",
+            "columnNum": "6",
+            "column": "Android插件化",
             "category": "code"
         },
         {
@@ -124,6 +172,8 @@
             "pubDate": "2016-05-04",
             "link": "https://www.kymjs.com/code/2016/05/04/01",
             "tag": "Android插件化开发",
+            "columnNum": "6",
+            "column": "Android插件化",
             "category": "code"
         },
         {
@@ -132,6 +182,8 @@
             "pubDate": "2016-04-23",
             "link": "https://www.kymjs.com/stickies/2016/04/23/01",
             "tag": "策划与管理",
+            "columnNum": "5",
+            "column": "每月一书",
             "category": "stickies"
         },
         {
@@ -140,6 +192,8 @@
             "pubDate": "2016-03-08",
             "link": "https://www.kymjs.com/code/2016/03/08/01",
             "tag": "笔记",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -148,6 +202,8 @@
             "pubDate": "2016-02-25",
             "link": "https://www.kymjs.com/code/2016/02/25/01",
             "tag": "笔记",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -156,6 +212,8 @@
             "pubDate": "2015-12-22",
             "link": "https://www.kymjs.com/stickies/2015/12/22/01",
             "tag": "心情随笔",
+            "columnNum": "3",
+            "column": "思绪万千",
             "category": "stickies"
         },
         {
@@ -164,6 +222,8 @@
             "pubDate": "2015-12-16",
             "link": "https://www.kymjs.com/code/2015/12/16/01",
             "tag": "Android技术讲解",
+            "columnNum": "4",
+            "column": "源码研读",
             "category": "code"
         },
         {
@@ -172,6 +232,8 @@
             "pubDate": "2015-12-13",
             "link": "https://www.kymjs.com/code/2015/12/13/01",
             "tag": "Android技术讲解",
+            "columnNum": "4",
+            "column": "源码研读",
             "category": "code"
         },
         {
@@ -180,6 +242,8 @@
             "pubDate": "2015-12-12",
             "link": "https://www.kymjs.com/code/2015/12/12/01",
             "tag": "Android技术讲解",
+            "columnNum": "4",
+            "column": "源码研读",
             "category": "code"
         },
         {
@@ -188,6 +252,8 @@
             "pubDate": "2015-11-26",
             "link": "https://www.kymjs.com/code/2015/11/26/01",
             "tag": "笔记",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -196,6 +262,8 @@
             "pubDate": "2015-11-21",
             "link": "https://www.kymjs.com/manager/2015/11/21/01",
             "tag": "知识点积累",
+            "columnNum": "2",
+            "column": "一步一步脱离程序猿",
             "category": "manager"
         },
         {
@@ -204,6 +272,8 @@
             "pubDate": "2015-11-13",
             "link": "https://www.kymjs.com/stickies/2015/11/13/01",
             "tag": "心情随笔",
+            "columnNum": {},
+            "column": {},
             "category": "stickies"
         },
         {
@@ -212,6 +282,8 @@
             "pubDate": "2015-11-09",
             "link": "https://www.kymjs.com/code/2015/11/09/01",
             "tag": "Android技术讲解",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -220,6 +292,8 @@
             "pubDate": "2015-10-18",
             "link": "https://www.kymjs.com/code/2015/10/18/01",
             "tag": "Android技术讲解",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -228,6 +302,8 @@
             "pubDate": "2015-10-11",
             "link": "https://www.kymjs.com/code/2015/10/11/01",
             "tag": "Android技术讲解",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -236,6 +312,8 @@
             "pubDate": "2015-09-26",
             "link": "https://www.kymjs.com/stickies/2015/09/26/01",
             "tag": "心情随笔",
+            "columnNum": {},
+            "column": {},
             "category": "stickies"
         },
         {
@@ -244,6 +322,8 @@
             "pubDate": "2015-09-24",
             "link": "https://www.kymjs.com/code/2015/09/24/01",
             "tag": "Android框架",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -252,6 +332,8 @@
             "pubDate": "2015-08-03",
             "link": "https://www.kymjs.com/code/2015/08/03/01",
             "tag": "Kotlin",
+            "columnNum": "7",
+            "column": "Kotlin 程序设计",
             "category": "code"
         },
         {
@@ -260,6 +342,8 @@
             "pubDate": "2015-08-02",
             "link": "https://www.kymjs.com/code/2015/08/02/01",
             "tag": "Kotlin",
+            "columnNum": "7",
+            "column": "Kotlin 程序设计",
             "category": "code"
         },
         {
@@ -268,6 +352,8 @@
             "pubDate": "2015-07-22",
             "link": "https://www.kymjs.com/code/2015/07/22/01",
             "tag": "Kotlin",
+            "columnNum": "7",
+            "column": "Kotlin 程序设计",
             "category": "code"
         },
         {
@@ -276,6 +362,8 @@
             "pubDate": "2015-06-06",
             "link": "https://www.kymjs.com/code/2015/06/06/01",
             "tag": "Android技术讲解",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -284,6 +372,8 @@
             "pubDate": "2015-05-26",
             "link": "https://www.kymjs.com/code/2015/05/26/01",
             "tag": "Android技术讲解",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -292,6 +382,8 @@
             "pubDate": "2015-05-24",
             "link": "https://www.kymjs.com/code/2015/05/24/01",
             "tag": "知识点积累",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -300,6 +392,8 @@
             "pubDate": "2015-05-16",
             "link": "https://www.kymjs.com/stickies/2015/05/16/01",
             "tag": "策划与管理",
+            "columnNum": "2",
+            "column": "一步一步脱离程序猿",
             "category": "stickies"
         },
         {
@@ -308,6 +402,8 @@
             "pubDate": "2015-05-12",
             "link": "https://www.kymjs.com/code/2015/05/12/01",
             "tag": "Android框架",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -316,6 +412,8 @@
             "pubDate": "2015-05-10",
             "link": "https://www.kymjs.com/code/2015/05/10/01",
             "tag": "Android框架",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -324,6 +422,8 @@
             "pubDate": "2015-05-04",
             "link": "https://www.kymjs.com/code/2015/05/04/01",
             "tag": "Android技术讲解",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -332,6 +432,8 @@
             "pubDate": "2015-05-03",
             "link": "https://www.kymjs.com/code/2015/05/03/01",
             "tag": "Android技术讲解",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -340,6 +442,8 @@
             "pubDate": "2015-05-01",
             "link": "https://www.kymjs.com/stickies/2015/05/01/01",
             "tag": "心情随笔",
+            "columnNum": {},
+            "column": {},
             "category": "stickies"
         },
         {
@@ -348,6 +452,8 @@
             "pubDate": "2015-04-28",
             "link": "https://www.kymjs.com/code/2015/04/28/01",
             "tag": "Android技术讲解",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -355,7 +461,9 @@
             "description": "身边一直有创业的朋友，也一直有想拉我创业的朋友，我只告诉他们还没到时间。90%的人都想过创业，但只有10%的人去做了，最后又只有这10%里面的10%成功了。我从来没有忘记过我的创业之心，在我的计划里会在25岁决定一个去留，是留在深圳还是回家创业(我不会呆在深圳或其他大城市创业，原因以后再说)，而决定这一去留的索引，很现实——就是在我25岁时的年薪。",
             "pubDate": "2015-04-27",
             "link": "https://www.kymjs.com/stickies/2015/04/27/01",
-            "tag": "我的创业方案",
+            "tag": "策划与管理",
+            "columnNum": "3",
+            "column": "思绪万千",
             "category": "stickies"
         },
         {
@@ -364,6 +472,8 @@
             "pubDate": "2015-04-12",
             "link": "https://www.kymjs.com/code/2015/04/12/01",
             "tag": "Android技术讲解",
+            "columnNum": {},
+            "column": {},
             "category": "code"
         },
         {
@@ -372,6 +482,8 @@
             "pubDate": "2015-04-11",
             "link": "https://www.kymjs.com/manager/2015/04/11/01",
             "tag": "策划与管理",
+            "columnNum": "2",
+            "column": "一步一步脱离程序猿",
             "category": "manager"
         },
         {
@@ -380,6 +492,8 @@
             "pubDate": "2015-04-05",
             "link": "https://www.kymjs.com/manager/2015/04/05/01",
             "tag": "策划与管理",
+            "columnNum": "2",
+            "column": "一步一步脱离程序猿",
             "category": "manager"
         },
         {
@@ -388,22 +502,8 @@
             "pubDate": "2015-04-01",
             "link": "https://www.kymjs.com/code/2015/04/01/01",
             "tag": "心情随笔",
-            "category": "code"
-        },
-        {
-            "title": "KJBitmap使用方法",
-            "description": "好像最近一个月都没有写博客了，正好伴着KJFrameForAndroid更新v2.14版本，讲解一下其中Bitmap模块的深度用法。",
-            "pubDate": "2015-03-25",
-            "link": "https://www.kymjs.com/code/2015/03/25/01",
-            "tag": "Android框架",
-            "category": "code"
-        },
-        {
-            "title": "面向时空编程",
-            "description": "如果你能看到我的头脑如何思考，你就会发现，当我的眼睛看到代码或者公式的时候，我的头脑看到的并不是代码和公式，而是自动把它们翻译成了一些电路，流体导管一类的东西，它们存在于一个具有多重现实和历史的，像 Matrix 一样的世界里。这些直觉都不是从书里来的，也不是老师教的，而是通过观察身边的事物得到的。",
-            "pubDate": "2015-03-16",
-            "link": "https://www.kymjs.com/code/2015/03/16/01",
-            "tag": "心情随笔",
+            "columnNum": "3",
+            "column": "思绪万千",
             "category": "code"
         }
     ]
